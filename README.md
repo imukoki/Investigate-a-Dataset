@@ -19,5 +19,5 @@
 - [Author](#Author)
 
 ## Introduction
-In this project the dataset that is being investigated is the [TMDb Movie dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dd1c4c_tmdb-movies/tmdb-movies.csv) which has over 10000 movies with release dates dating from 1960 to 2015.
+In this project the dataset that is being investigated is the [TMDb Movie Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dd1c4c_tmdb-movies/tmdb-movies.csv) which has over 10000 movies with release dates dating from 1960 to 2015.
 Here is a list of the columns that are provided in the dataset:
