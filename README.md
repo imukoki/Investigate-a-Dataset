@@ -9,15 +9,41 @@
 **Table of contents**
 
 - [Introduction](#Introduction)
-- [Project Details](#Project-Details)
-- [Gathering Data for this Project](#Gathering-Data-for-this-Project)
-- [Assessing Data for this Project](#Assessing-Data-for-this-Project)
-- [Cleaning Data for this Project](#Cleaning-Data-for-this-Project)
-- [Storing, Analyzing and Visualizing Data for this Project](#Storing-Analyzing-and-Visualizing-Data-for-this-Project)
+- [Data Wrangling](#Data-Wrangling)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Installation](#Installation)
 - [Requirements](#Requirements)
 - [Author](#Author)
 
 ## Introduction
 In this project the dataset that is being investigated is the [TMDb Movie Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/October/59dd1c4c_tmdb-movies/tmdb-movies.csv) which has over 10000 movies with release dates dating from 1960 to 2015.
-Here is a list of the columns that are provided in the dataset:
+
+The questions that are investigated in this project are:
+1. Investigating the trend in popularity of movies as the time progresses from 1960 to 2015
+2. Investigating the correlation of popularity, budget, vote count with the revenue
+
+## Data-Wrangling
+The dataset is loaded into the Jupyter Notebook and checks are done to see if the dataset does not contain any missing values, upon checking it is discovered that there are variables with missing values. It is decided that all the missing values should be dropped so that all the variables have the same number of data points. Columns that were initially thought to not be useful in the investigation were dropped. The release date was converted to datetime so that it can be used to plot a time series to show the trend of some of the variables as time progresses. The dataframe was sorted in asscending order using the release date as the key, this made it easier to plot time series graphs.
+
+## Exploratory-Data-Analysis
+Statistics were computed and visualizations were created with the goal of addressing the research questions in the Introduction section. In this case time series plots and scatter plots were created to answer the research questions.
+
+## Installation 
+
+```
+git clone https://github.com/imukoki/Investigate-a-Dataset.git
+cd Investigate-a-Dataset
+Jupyter notebook 
+```
+
+## Requirements
+* Pandas
+* Numpy 
+* Matplotlib
+
+## Author
+
+👤 **Innocent Mukoki**
+
+- GitHub: [Innocent Mukoki](https://github.com/imukoki)
+- LinkedIn: [Innocent Mukoki](https://www.linkedin.com/in/innocent-mukoki/)
